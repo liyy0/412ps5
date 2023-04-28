@@ -16,7 +16,7 @@ interface Weather{
 
 export class AppComponent {
   title = '412ps5';
-  messages:Weather[] = [];
+  messages!:Weather[];
   onClick(){
     console.log("clicked");
     this.messages = weatherData;
